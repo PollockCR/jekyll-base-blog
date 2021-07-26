@@ -4,3 +4,9 @@ collections:
     permalink: /posts/:year/:slug
   archives:
     output: true
+
+gems:
+  - jekyll-archives
+
+jekyll-archives:
+  enabled: ['categories']
